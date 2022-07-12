@@ -73,6 +73,7 @@
     ]
 ];
 
-header("content-Type: application/json");
-echo json_encode($dati)
+/* header("content-Type: application/json");
+
+echo json_encode($dati); */
 ?>
