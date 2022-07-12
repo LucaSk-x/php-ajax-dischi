@@ -12,6 +12,10 @@ main {
     background-color: #1e2d3b ;
 }
 
+.song-cover {
+    width: 80%;
+}
+
 .my-card-song {
     height: 320px;
     background-color: #2e3a46;

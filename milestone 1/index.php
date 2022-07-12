@@ -23,7 +23,7 @@
             <div class="row row-cols-5 pt-5">
                 <?php foreach($dati as $song) {  ?>
                 <div class="col">
-                    <div class="my-card-song d-flex flex-column align-items-center p-4 my-2">
+                    <div class="my-card-song d-flex flex-column align-items-center p-4 m-2">
                         <div class="song-cover">
                             <img class="w-100" src=<?php echo $song["poster"] ?> alt="">
                         </div>
