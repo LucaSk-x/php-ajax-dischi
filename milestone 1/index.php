@@ -1,5 +1,5 @@
 <?php 
-    include "../db/api.php";
+    require "../db/api.php";
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -20,7 +20,7 @@
     </header>
     <main>
         <div class="container">
-            <div class="row row-cols-5 pt-5">
+            <div class="row row-cols-5 pt-3">
                 <?php foreach($dati as $song) {  ?>
                 <div class="col">
                     <div class="my-card-song d-flex flex-column align-items-center p-4 m-2">
